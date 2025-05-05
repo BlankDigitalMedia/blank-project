@@ -92,6 +92,16 @@ This project is specifically designed to complement the [shadcn/ui themes page](
    - Dynamic imports for registry example components
    - Production build script (`build:prod`) to exclude registry
 
+## Analytics
+
+This project includes [Vercel Web Analytics](https://vercel.com/docs/analytics/quickstart) for privacy-friendly, zero-config insights into real user traffic and behavior. Analytics is:
+
+- **Enabled only in production** (not in local or preview environments)
+- **Non-intrusive** and does not require any sensitive configuration
+- **Easily removable or modifiable**: To disable, simply remove or comment out the `<Analytics />` component in `src/app/layout.tsx`.
+
+You can view analytics data in the Vercel dashboard under the "Analytics" tab for your project.
+
 ## How to Use This Project
 
 ### For Development
