@@ -40,8 +40,11 @@ export default function HomePage() {
         <Heading as="h1" size="xl" className="mb-4">
           blank
         </Heading>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-6">
-          Jumpstart your project with the blank component library, live theme preview, and guides for AI-driven customization.
+        <p className="text-xl md:text-2xl text-foreground max-w-2xl mb-3">
+        A blank project with a live design system preview, prewired for shadcn, Tailwind, and Cursor-based customization.
+        </p>
+        <p className="text-base text-muted-foreground max-w-2xl mb-8">
+        Skip the setup. Start building with a theme-aware registry, ready for AI-assisted workflows and real-time UI previews.
         </p>
         <Button asChild size="lg">
           <Link href="/registry">
