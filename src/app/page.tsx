@@ -49,6 +49,11 @@ export default function HomePage() {
             Explore Component Registry <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </Button>
+        <Button asChild variant="outline" size="lg" className="mt-3">
+          <Link href="https://github.com/BlankDigitalMedia/blank-project" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </Link>
+        </Button>
       </header>
 
       {/* What is This? */}
