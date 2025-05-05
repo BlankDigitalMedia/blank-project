@@ -39,7 +39,7 @@ export default function HomePage() {
           blank
         </Heading>
         <p className="text-xl md:text-2xl text-foreground max-w-2xl mb-3">
-        A blank project with a live design system preview, prewired for shadcn, Tailwind, and Cursor-based customization.
+        A blank project with a live design system preview, prewired for shadcn, Tailwind, and AI-based customization.
         </p>
         <p className="text-base text-muted-foreground max-w-2xl mb-8">
         Skip the setup. Start building with a theme-aware registry, ready for AI-assisted workflows and real-time UI previews.
