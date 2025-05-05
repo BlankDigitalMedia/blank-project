@@ -4,6 +4,7 @@ import { Heading } from "@/components/ui/heading-font";
 import Link from "next/link";
 import { useState } from "react";
 import { Copy as CopyIcon } from "lucide-react";
+import Image from "next/image";
 
 const CopyButton = ({ value, label }: { value: string; label: string }) => {
   const [copied, setCopied] = useState(false);
@@ -56,7 +57,7 @@ export default function BrandPage() {
         {/* Favicon & App Icon Preview */}
         <div className="bg-card text-card-foreground border border-card shadow rounded-lg p-6 flex flex-col items-center justify-center min-h-[220px]">
           <div className="flex items-center gap-4 mb-4">
-            <img src="/favicon.ico" alt="Favicon" className="w-10 h-10 rounded" />
+            <Image src="/favicon.ico" alt="Favicon" width={40} height={40} className="w-10 h-10 rounded" />
             <div className="flex flex-col gap-1">
               <span className="font-medium">Favicon</span>
               <span className="text-xs text-muted-foreground">src/app/favicon.ico</span>
@@ -109,7 +110,7 @@ export default function BrandPage() {
       <div className="bg-card text-card-foreground border border-card shadow rounded-lg p-6 mb-8">
         <h2 className="font-semibold text-base mb-2">AI Prompt Examples</h2>
         <ul className="list-disc pl-5 space-y-1 text-sm">
-          <li className="flex items-center"><span className="font-medium">Update title:</span> Change the site title to 'My New App' in <code className="bg-muted px-1 rounded">src/app/layout.tsx</code><CopyButton value="src/app/layout.tsx" label="layout path" /></li>
+          <li className="flex items-center"><span className="font-medium">Update title:</span> Change the site title to &apos;My New App&apos; in <code className="bg-muted px-1 rounded">src/app/layout.tsx</code><CopyButton value="src/app/layout.tsx" label="layout path" /></li>
           <li className="flex items-center"><span className="font-medium">Update favicon:</span> Replace the favicon with this image: [URL] (save as <code className="bg-muted px-1 rounded">src/app/favicon.ico</code>)<CopyButton value="src/app/favicon.ico" label="favicon path" /></li>
           <li className="flex items-center"><span className="font-medium">Add OG image:</span> Add an OG image to the metadata in <code className="bg-muted px-1 rounded">src/app/layout.tsx</code><CopyButton value="src/app/layout.tsx" label="layout path" /></li>
           <li className="flex items-center"><span className="font-medium">Add manifest:</span> Create a <code className="bg-muted px-1 rounded">manifest.json</code> in <code className="bg-muted px-1 rounded">/public</code> with your app name, icons, and theme color<CopyButton value="public/manifest.json" label="manifest path" /></li>
