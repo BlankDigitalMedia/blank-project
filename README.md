@@ -2,7 +2,7 @@
 
 A comprehensive, interactive component showcase and design system starter for Next.js projects optimized for AI-assisted development workflows, part of the blank project.
 
-![Component Registry Preview](https://via.placeholder.com/800x400?text=Component+Registry+Screenshot)
+![Component Registry Preview](https://blank-project-gamma.vercel.app/)
 
 ## What Is This?
 
