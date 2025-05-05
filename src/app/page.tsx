@@ -56,6 +56,28 @@ export default function HomePage() {
         </Button>
       </header>
 
+      {/* Brand Page Highlight */}
+      <section className="mb-10 md:mb-14">
+        <Card className="max-w-3xl mx-auto border-primary border-2">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Palette className="h-5 w-5 text-primary" />
+              New: Brand & Meta Page
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-sm text-muted-foreground mb-3">
+              Manage your site identity, meta tags, favicon, and app manifest in one place. The <span className="font-medium">Brand page</span> helps you keep your site professional and on-brand, with copy buttons and prompts for easy updates.
+            </p>
+            <Button asChild size="sm">
+              <Link href="/brand">
+                Go to Brand Page
+              </Link>
+            </Button>
+          </CardContent>
+        </Card>
+      </section>
+
       {/* What is This? */}
       <section className="mb-12 md:mb-16">
         <Heading as="h2" size="lg" className="text-center mb-6 md:mb-8">

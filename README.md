@@ -24,6 +24,7 @@ This project is specifically designed to complement the [shadcn/ui themes page](
 │   │   ├── page.tsx            # Landing page explaining the starter
 │   │   ├── layout.tsx          # Root layout with theme provider
 │   │   ├── globals.css         # Global styles and Tailwind directives
+│   │   ├── brand/              # Brand/Meta settings page (site identity, meta, favicon, manifest)
 │   │   └── registry/           # Component registry (development only)
 │   │       └── page.tsx        # Interactive component showcase
 │   │
@@ -50,6 +51,24 @@ This project is specifically designed to complement the [shadcn/ui themes page](
 ├── tailwind.config.js          # Tailwind CSS configuration
 └── tsconfig.json               # TypeScript configuration
 ```
+
+## Brand Page (Site Meta & Branding)
+
+The Brand page (`/brand` route) is a central place to manage your site's identity and meta settings. Use it to:
+
+- Update the site title and description
+- Set or preview the favicon and app icons
+- Add or update Open Graph (OG) images and Twitter meta tags
+- Edit the web app manifest for PWA support
+- Copy file paths and prompts for quick AI-assisted updates
+
+**How to use:**
+1. Visit `/brand` in your running app.
+2. Use the preview cards to see current branding assets and meta info.
+3. Use the copy buttons to quickly copy file paths or prompts for updating meta, favicon, or manifest files.
+4. Follow the instructions and prompts to update branding files in your project (e.g., `src/app/layout.tsx`, `public/manifest.json`).
+
+This page is especially useful for handoff to designers or clients, ensuring a professional, on-brand experience.
 
 ## Technical Details
 
@@ -112,7 +131,8 @@ You can view analytics data in the Vercel dashboard under the "Analytics" tab fo
     - Use the Theme Importer: Copy JSON theme config from [shadcn/ui themes](https://ui.shadcn.com/themes), paste it into the importer, process it, and copy the generated Tailwind snippet.
 3. **Apply Theme**: Paste the generated snippet into your `tailwind.config.mjs` file to persist changes.
 4. **Modify with AI**: Use AI assistants (like Cursor) to further customize theme variables in `tailwind.config.mjs` or request component usage examples.
-5. **Build Your App**: Use the components and themes to build your actual application pages.
+5. **Update Branding**: Use the [Brand page](/brand) to manage site meta, favicon, OG image, and manifest. Use the copy buttons and prompts for quick updates.
+6. **Build Your App**: Use the components and themes to build your actual application pages.
 
 ### For Production
 
