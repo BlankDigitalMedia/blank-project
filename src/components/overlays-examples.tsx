@@ -84,7 +84,7 @@ function FormDialogExample() {
             <DialogHeader>
               <DialogTitle>Edit Profile</DialogTitle>
               <DialogDescription>
-                Make changes to your profile here. Click save when you're done.
+                Make changes to your profile here. Click save when you&#39;re done.
               </DialogDescription>
             </DialogHeader>
             <div className="grid gap-4 py-4">

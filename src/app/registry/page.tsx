@@ -1,19 +1,7 @@
 import { Metadata } from "next"
-import Link from "next/link"
 import dynamic from 'next/dynamic'
 
-import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
 import { ThemeToggle } from "@/components/theme-toggle"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ColorsShowcase, TypographyShowcase, UIStylingShowcase } from "@/components/styles-showcase"
 import { Heading } from "@/components/ui/heading-font"

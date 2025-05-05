@@ -13,13 +13,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Heading } from "@/components/ui/heading-font"
 
-// Placeholder Image component (replace with actual image component or logic if available)
-const PlaceholderImage = ({ className }: { className?: string }) => (
-  <div className={`bg-muted aspect-video flex items-center justify-center ${className}`}>
-    {/* Optionally add an icon or text */}
-  </div>
-)
-
 // Updated component using theme colors directly
 export function ColorsShowcase() {
   // Example theme colors (assuming shadcn/ui setup)
@@ -76,7 +69,7 @@ export function ColorsShowcase() {
             ))}
           </CardContent>
            <CardFooter className="p-2 border-t">
-            <p className="text-xs text-muted-foreground">Ask AI: "Update the `[color name]` color in the Tailwind theme config to `[hex code]`".</p>
+            <p className="text-xs text-muted-foreground">Ask AI: &quot;Update the `[color name]` color in the Tailwind theme config to `[hex code]`&quot;.</p>
           </CardFooter>
       </Card>
 
@@ -97,7 +90,7 @@ export function ColorsShowcase() {
             </div>
           </CardContent>
            <CardFooter className="p-2 border-t">
-            <p className="text-xs text-muted-foreground">Ask AI: "Update the `neutral` colors in the Tailwind theme config".</p>
+            <p className="text-xs text-muted-foreground">Ask AI: &quot;Update the `neutral` colors in the Tailwind theme config&quot;.</p>
           </CardFooter>
         </Card>
     </div>
@@ -118,7 +111,7 @@ export function TypographyShowcase() {
             <p className="font-sans text-sm font-light italic">The quick brown fox jumps over the lazy dog.</p>
           </CardContent>
           <CardFooter className="p-2 border-t">
-            <p className="text-xs text-muted-foreground">Ask AI: "Update the `sans` font family in the Tailwind theme config to `[Font Name]`".</p>
+            <p className="text-xs text-muted-foreground">Ask AI: &quot;Update the `sans` font family in the Tailwind theme config to `[Font Name]`&quot;.</p>
           </CardFooter>
         </Card>
 
@@ -130,7 +123,7 @@ export function TypographyShowcase() {
              <p className="font-serif text-sm italic">The quick brown fox jumps over the lazy dog.</p>
           </CardContent>
           <CardFooter className="p-2 border-t">
-            <p className="text-xs text-muted-foreground">Ask AI: "Update the `serif` font family in the Tailwind theme config to `[Font Name]`".</p>
+            <p className="text-xs text-muted-foreground">Ask AI: &quot;Update the `serif` font family in the Tailwind theme config to `[Font Name]`&quot;.</p>
           </CardFooter>
         </Card>
          <Card>
@@ -141,7 +134,7 @@ export function TypographyShowcase() {
              <p className="font-mono text-sm">The quick brown fox jumps over the lazy dog.</p>
           </CardContent>
           <CardFooter className="p-2 border-t">
-            <p className="text-xs text-muted-foreground">Ask AI: "Update the `mono` font family in the Tailwind theme config to `[Font Name]`".</p>
+            <p className="text-xs text-muted-foreground">Ask AI: &quot;Update the `mono` font family in the Tailwind theme config to `[Font Name]`&quot;.</p>
           </CardFooter>
         </Card>
       </div>
@@ -210,7 +203,7 @@ export function UIStylingShowcase() {
           </CardContent>
           <CardFooter className="p-2 border-t">
              {/* Updated Ask AI prompt */}
-            <p className="text-xs text-muted-foreground">Ask AI: "Update the `--primary` CSS variable in `globals.css`" or "Change the `border` color in `tailwind.config.js`".</p>
+            <p className="text-xs text-muted-foreground">Ask AI: &quot;Update the `--primary` CSS variable in `globals.css`&quot; or &quot;Change the `border` color in `tailwind.config.js`&quot;.</p>
           </CardFooter>
         </Card>
 
@@ -250,7 +243,7 @@ export function UIStylingShowcase() {
           </CardContent>
           <CardFooter className="p-2 border-t">
              {/* Updated Ask AI prompt */}
-            <p className="text-xs text-muted-foreground">Ask AI: "Update the `--card` background color in `globals.css`" or "Change the base `--radius` value?".</p>
+            <p className="text-xs text-muted-foreground">Ask AI: &quot;Update the `--card` background color in `globals.css`&quot; or &quot;Change the base `--radius` value?&quot;.</p>
           </CardFooter>
         </Card>
       </div>

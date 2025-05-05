@@ -72,7 +72,7 @@ export default function LayoutExamples() {
             <CardDescription className="text-xs">New features available</CardDescription>
           </CardHeader>
           <CardContent className="p-3">
-            <p className="text-xs">We've just released a new update with several improvements:</p>
+            <p className="text-xs">We&#39;ve just released a new update with several improvements:</p>
             <ul className="list-disc list-inside mt-1 space-y-0.5 text-xs">
               <li>Improved performance</li>
               <li>New dark mode option</li>
