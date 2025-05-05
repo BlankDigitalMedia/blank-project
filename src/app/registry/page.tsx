@@ -43,6 +43,12 @@ export default function RegistryPage() {
           <p className="text-sm text-muted-foreground">
             A showcase of UI components using shadcn/ui, Radix UI, and Sonner toast
           </p>
+          <a
+            href="/brand"
+            className="inline-block mt-2 px-4 py-2 bg-card text-card-foreground border border-card shadow rounded hover:bg-muted transition"
+          >
+            Site Branding & Meta →
+          </a>
         </div>
         <ThemeToggle />
       </header>
